@@ -1,0 +1,125 @@
+.defaultTextComponentContainer {
+	overflow-wrap: break-word;
+}
+
+.HeadlineLabel {
+	font-family: "Inter";
+	font-weight: 600;
+	font-style: normal;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing: .05px;
+}
+.ParagraphLabel{
+	font-family: "Inter";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing: .05px;
+}
+
+.ParagraphFootnote{
+	font-family: "Inter";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: -0.04px;
+}
+
+.ParagraphNote{
+	font-family: "Inter";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: -0.13px;
+}
+
+.ParagraphText{
+	font-family: "Inter";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 24px;
+}
+
+.ActionFootnote {
+	font-family: "Inter";
+	font-weight: 500;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: -0.04px;
+}
+
+.ActionCallout{
+	font-family: "Inter";
+	font-weight: 500;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: -0.13px;
+}
+
+.Action{
+	font-family: "Inter";
+	font-weight: 500;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 24px;
+	letter-spacing: -0.22px;
+}
+
+.TitleMedium{
+	font-family: "Inter";
+	font-weight: 600;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 32px;
+	letter-spacing: -0.4px;
+}
+
+.TitleHuge{
+	font-family: "Inter";
+	font-weight: 600;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: -0.79px;
+}
+
+.LightHuge{
+	font-family: "Inter";
+	font-weight: 300;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: -0.79px;
+}
+
+.LightLarge {
+	font-family: "Inter";
+	font-weight: 300;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 40px;
+	letter-spacing: -0.64px;
+}
+.MonoText {
+	font-family: "Inter";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 24px;
+	letter-spacing: -0.22px;
+}
+
+.TinyMedium {
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0;
+	font-family: "Inter";
+	font-weight: 500;
+}

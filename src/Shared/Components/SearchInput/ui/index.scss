@@ -1,0 +1,38 @@
+.SearchField{
+	height: 56px;
+	// width: 100%;
+	flex-direction: row;
+	align-items: center;
+	display: flex;
+	img{
+		width: 24px;
+		height: 24px;
+		margin-right: 8px;
+	}
+}
+
+.MUI .MuiOutlinedInput-input {
+	padding: 0 16px 0 0;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-family: "Inter";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 24px;
+	letter-spacing: -0.22px;
+	&::placeholder {
+		opacity: 1;
+		font-weight:400;
+		color: #757575;
+	}
+}
+
+.MUI .MuiOutlinedInput-notchedOutline {
+	padding: 0;
+}
+
+.SearchField .MuiOutlinedInput-notchedOutline {
+	border: none;
+}

@@ -1,0 +1,90 @@
+.DateTimePicker.MUI{
+	background-color: #fff;
+	border-radius: 12px;
+	z-index: 1;
+	overflow: hidden;
+
+	.DateTimePicker__header {
+		display: flex;
+		justify-content: space-between;
+		height: 56px;
+		padding: 8px 16px;
+		
+		.header__button {
+			transition: opacity 250ms ease-out;
+			padding: 10px;
+			&:hover {
+				opacity: .2;
+			}
+		}
+	}
+	.MuiPickersCalendarHeader-labelContainer{
+		font-weight: 400;
+	}
+	.MuiPickersCalendarHeader-root{
+		padding: 0;
+	}
+	.MuiPickersMonth-monthButton{
+		flex: 1 0 33.33%;
+	}
+	.MuiDayCalendar-weekContainer,
+	.MuiDayCalendar-header {
+		justify-content: space-between;
+	}
+	.MuiPickersLayout-root  {
+		padding: 0 16px;
+		font-family: "Inter";
+		font-weight: 500;
+		font-style: normal;
+		font-size: 21px;
+		line-height: 24px;
+		letter-spacing: -0.22px;
+	}
+	.MuiPickersDay-root {
+		font-size: 17px;
+	}
+	.MuiTypography-caption {
+		font-family: "Inter";
+		font-weight: 600;
+		font-style: normal;
+		font-size: 13px;
+		line-height: 20px;
+		letter-spacing: -0.04px;
+	}
+	.MuiDateTimePickerToolbar-timeContainer span,
+	.MuiDateTimePickerToolbar-dateContainer button:last-child span {
+		font-size: 30px;
+	}
+	.MuiTypography-root.MuiTypography-overline,
+	.MuiPickersArrowSwitcher-root.MuiTimeClock-arrowSwitcher,
+	.MuiDialogActions-root.MuiDialogActions-spacing.MuiPickersLayout-actionBar {
+		display: none;
+	}
+	.MuiPickersToolbar-content {
+		column-gap: 20px;
+		-webkit-align-items: flex-end; 
+		-webkit-box-align: flex-end; 
+		-ms-flex-align: flex-end;
+		align-items: flex-end;
+	}
+	@media (max-width: 400px){
+		.MuiPickersLayout-contentWrapper,
+		.MuiTabs-root.MuiDateTimePickerTabs-root{
+			width: 100%;
+		}
+		.MuiPickersToolbar-content {
+			column-gap: 0px;
+			justify-content: space-between;
+		}
+		overflow: auto;
+		.MuiDateCalendar-root {
+			width: 100%;
+		}
+		.MuiTimeClock-root,
+		.MuiPickersLayout-root{
+			padding: 0 5px;
+			min-width: 0;
+			width: 100%;
+		}
+	}
+}

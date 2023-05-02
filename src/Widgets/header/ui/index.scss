@@ -1,0 +1,18 @@
+.TopBar {
+	display: flex;
+	align-items: center;
+	border-bottom-width: 1px;
+	&.narrow {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	&:not(.narrow)>*:nth-child(odd) {
+		flex: 1 0 25%;
+	}
+}
+
+.SearchField{
+	&.narrow{
+		order: 2;
+	}
+}

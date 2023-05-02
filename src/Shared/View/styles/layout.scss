@@ -1,0 +1,258 @@
+//Flex
+.displayFlex {
+	display: flex;
+}
+.flexColumn {
+	flex-direction: column;
+}
+.flexRow {
+	flex-direction: row;
+}
+.flexRowWrap {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.flex1 {
+	flex: 1 1 0;
+}
+//Container
+.centerContainer {
+	flex: 1;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.centerLeftContainer {
+	flex-direction: row;
+	align-items: center;
+}
+.centerRightContainer {
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+.positionAbsoluteCenter {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.halfWidthContainer {
+	width: 50%;
+	max-width: calc(1600px / 2);
+	align-self: center;
+}
+.fullWidthPaddingContainer {
+	width: 100%;
+	padding-right: 16px;
+	padding-left: 16px;
+}
+.fullWidth {
+	width: 100%;
+}
+.screenContainer {
+	flex: 1;
+	flex-direction: column;
+}
+//align
+.alignSelfCenter {
+	align-self: center;
+}
+.alignCenter {
+	flex: 1;
+	align-items: center;
+}
+.alignEnd {
+	align-items: flex-end;
+}
+.alignItemsCenter {
+	align-items: center;
+}
+//justify
+.justifyContentCenter{
+	justify-content: center;
+}
+//Padding
+.Content {
+	padding-bottom: 64px;
+}
+.paddingTopHuge{
+	padding-top: 32px;
+}
+.paddingDefault {
+	padding: 16px;
+}
+.paddingTopDefault {
+	padding-top: 16px;
+}
+.paddingRightDefault{
+	padding-right: 16px;
+}
+.paddingLeftDefault{
+	padding-left: 16px;
+}
+.paddingHorizontal {
+	padding-right: 16px;
+	padding-left: 16px;
+}
+.paddingHorizontalSmall {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.paddingBottomSmall {
+	padding-bottom: 8px;
+}
+.paddingTopTiny {
+	padding-top: 8px;
+}
+.paddingBottomTiny {
+	padding-bottom: 4px;
+}
+.paddingHorizontalTiny {
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+//Margin
+.marginAuto{
+	margin: auto;
+}
+.marginTopSmall{
+	margin-top: 8px;
+}
+.marginLeftSmall{
+	margin-left: 8px;
+}
+.marginRightSmall{
+	margin-right: 8px;
+}
+.marginBottomSmall{
+	margin-bottom: 8px;
+}
+.marginRightDefault{
+	margin-right: 16px;
+}
+.marginLeftDefault{
+	margin-left: 16px;
+}
+.marginTopDefault {
+	margin-top: 16px;
+}
+.marginBottomDefault {
+	margin-bottom: 16px;
+}
+.marginHorizontalOffset {
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.marginLeftOffset{
+	margin-left: 16px;
+}
+.marginTopMedium {
+	margin-top: 24px;
+}
+.marginBottomMedium {
+	margin-bottom: 24px;
+}
+.marginTopHuge {
+	margin-top: 32px;
+}
+.marginTopSpacious {
+	margin-top: 40px;
+}
+.marginBottomGreat {
+	margin-bottom: 48px;
+}
+//Border
+.borderRadiusMedium {
+	border-radius: 12px;
+}
+.borderSolid {
+	border-style: solid;
+}
+.borderBottom {
+	// border-bottom-color: #cfd8dc;
+	border-bottom-width: 1px;
+}
+//Image, Icon
+.icon {
+	width: 24px;
+	height: 24px;
+}
+.MUI.Img {
+	fill: inherit;
+}
+
+//Cell
+.defaultCellHeight {
+	height: 48px;
+}
+.bigCellHeight {
+	height: 56px;
+}
+
+//Cursor
+.cursorPointer {
+	cursor: pointer;
+}
+//Button
+.buttonHeight {
+	height: 48px;
+}
+
+//UIButton
+.UIButton.largeHeight {
+	height: 56px;
+}
+.UIButton {
+	display: flex;
+	z-index: 1;
+}
+.UIDetailsButton {
+	display: flex;
+	justify-content: center;
+	height: 80px;
+}
+//UIScreen
+.UIScreen {
+	overflow: hidden;
+}
+.UIScreen__content {
+	overflow-y: auto;
+}
+//Arrow
+.arrowDrop{
+	&.show{
+		transform: rotate(180deg);
+	}
+}
+
+//Text
+.textAlignCenter{
+	text-align: center;
+}
+
+//Other
+.overflowHidden {
+	overflow: hidden;
+}
+
+//input
+.UITextInput {
+	outline: none;
+	border: none;
+}
+
+//Not from here?
+.MainScreenContent .description * {
+	display: inline-block;
+}
+
+.MainScreenContent .statusCell {
+	column-gap: 15px;
+}
+
+.EVERList.container {
+	min-height: calc(480px);
+}

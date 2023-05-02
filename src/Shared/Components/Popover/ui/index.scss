@@ -1,0 +1,36 @@
+.Popover__buttonContainer{
+	user-select: none; /*? это че? */
+	cursor: pointer;
+	transition: opacity 250ms linear;
+}
+.Popover__buttonContainer.pressed{
+	opacity: .2;
+}
+.Popover.Mui__paper {
+	background-color: transparent;
+	box-shadow: rgba(0,0,0,.2) 0 4px 20px;
+	border-radius: 8px;
+}
+.Popover__container {
+	pointer-events: auto;
+}
+.Popover__root{
+	pointer-events: none;
+}
+.Popover__root .MuiPopover-paper {
+	background-color: transparent;
+	box-shadow: rgb(0 0 0 / 20%) 0 4px 20px;
+	border-radius: 8px;
+	margin-top: 10px;
+	// bottom: 15px;
+}
+
+.MobilePopover .MuiPaper-root.MuiPaper-elevation {
+	position: absolute;
+	bottom: 0; 
+	width: 100%;
+	max-width: none;
+	background-color: transparent;
+	margin: 0;
+	border-radius: 12px;
+}

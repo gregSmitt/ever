@@ -1,0 +1,14 @@
+.SortSwitcher {
+	margin: 0 0 0 32px;
+}
+
+.SortSwitcher img.disabled {
+	filter: grayscale(1);
+}
+
+.SortSwitcher img.rotate {
+	transform: rotate(180deg);
+}
+.SortSwitcher img {
+	transition: transform 250ms ease-out;
+}

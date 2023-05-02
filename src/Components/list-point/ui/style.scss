@@ -1,0 +1,46 @@
+.card-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex: 1;
+	margin: 0 -16px;
+	padding: 0 16px;
+}
+
+.content-card-component {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.row-container {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.label-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 16px;
+	flex: 1;
+}
+.details-component {
+	margin-top: 4px;
+}
+.copy-button {
+	position: relative;
+	top: -2px;
+	display: none;
+	height: 16px;
+	margin-left: 16px;
+	&.visible {
+		display: block;
+	}
+}
+.details-component__first-item {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}

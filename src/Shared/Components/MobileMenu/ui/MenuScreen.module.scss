@@ -1,0 +1,14 @@
+.default{
+	display: flex;
+	flex-direction: column;
+}
+
+.closeButton{
+	&.MUI{
+		align-self: end;
+		margin: 12px 14px 0;
+	}
+	svg{
+		font-size: 32px;
+	}
+}

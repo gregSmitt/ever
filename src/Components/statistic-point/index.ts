@@ -1,0 +1,1 @@
+export { Point as StatisticPoint } from "./ui";

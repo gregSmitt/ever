@@ -1,0 +1,24 @@
+@keyframes move { 
+	from { 
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	 }  
+	to { 
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+	} 
+}
+.progress-spinner {
+	align-self: center;
+	width: 24px;
+	height: 24px;
+}
+.Spinner {
+	animation: move 2s infinite linear;
+}

@@ -1,0 +1,135 @@
+body.DarkTheme{
+	background-color: #20262A; 
+}
+
+.DarkTheme{
+	.SvgPrimary{
+		fill: #fdfdfd;
+	}
+	.SvgAccent{
+		fill: rgb(0, 122, 184);
+	}
+	.TextPrimary{
+	color: #fdfdfd;
+	}
+	.TextSecondary {
+		color: #adb0b1;
+	}
+	.TextTertiary {
+		color: #676b6e;
+	}
+	.TextAccent {
+		color: #0083e0;
+	}
+	.StaticTextPrimaryLight {
+		color: #fdfdfd;
+	}
+	.StaticBackgroundBlack {
+		background-color: #131719;
+	}
+	.BackgroundPrimary {
+		background-color: #20262a;
+	}
+	.BackgroundPrimaryInverted {
+		background-color: #fdfdfd;
+	}
+	.BackgroundSecondary {
+		background-color: #292f32;
+	}
+	.BackgroundAccent {
+		background-color: #0073c4;
+	}
+	.BorderColorAccent {
+		border-color: #0073c4;
+	}
+	.BorderColorPrimary {
+		border-color: #cfd8dc;
+	}
+	.BorderColorPrimaryInverted {
+		border-color: #fdfdfd;  
+	}
+	.BorderColorPrimaryAdditional {
+		border-color: #8e9193;  
+	}
+	.BorderBottomColorTertiary {
+		border-bottom-color: #32373b;
+	}
+	.BorderColorNeutral {
+		border-color: #3b4043;
+	}
+	.TextNegative {
+		color: #e71717;
+	}
+	.arrowDrop {
+		transition: inherit;
+		fill: #fdfdfd;
+		&.show{
+			fill: #0083e0;
+		}
+	}
+}
+
+.LightTheme{
+	.SvgPrimary{
+		fill: rgb(32, 38, 42);
+	}
+	.SvgAccent{
+		fill: rgb(0, 122, 184);
+	}
+	.TextPrimary{
+	color: #20262a;
+	}
+	.TextSecondary {
+		color: #707376;
+	}
+	.TextTertiary {
+		color: #b6b8ba;
+	}
+	.TextAccent {
+		color: #0073c4;
+	}
+	.StaticTextPrimaryLight {
+		color: #fdfdfd;
+	}
+	.StaticBackgroundBlack {
+		background-color: #131719;
+	}
+	.BackgroundPrimary {
+		background-color: #FDFDFD;
+	}
+	.BackgroundSecondary {
+		background-color: #f4f4f5;
+	}
+	.BackgroundAccent {
+		background-color: #0083e0;
+	}
+	.BorderColorAccent {
+		border-color: #0083e0;
+	}
+	.BorderColorPrimary {
+		border-color: #cfd8dc;
+	}
+	.BorderBottomColorTertiary {
+		border-bottom-color: #ebecec;
+	}
+	.BorderColorNeutral {
+			border-color: #e2e3e4;
+	}
+	.BorderColorPrimaryInverted {
+		border-color: #20262a;
+	}
+	.BorderColorPrimaryAdditional {
+		border-color: #8e9193;  
+	}
+	.TextNegative {
+		color: #ca1414;
+	}
+	.arrowDrop {
+		transition: inherit;
+		fill: #20262A;
+		&.show{
+			fill: #0073c4;
+		}
+	}
+	
+}

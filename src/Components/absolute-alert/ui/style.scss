@@ -1,0 +1,17 @@
+.Alert {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: min(328px, calc(100vw - (16px * 2)));
+	text-align: center;
+	&:not(.open) {
+		bottom: -10000px;
+		opacity: 0;
+		transition: opacity 250ms ease-in,bottom 1s 250ms;
+	}
+	&.open {
+		bottom: 16px;
+		opacity: 1;
+		transition: opacity 250ms ease-in;
+	}
+}
